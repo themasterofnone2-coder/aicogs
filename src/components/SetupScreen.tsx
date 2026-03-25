@@ -5,8 +5,8 @@ import { callDiscogsProxy } from '../utils/discogsProxy';
 
 export function SetupScreen() {
   const { setConnection } = useDiscogs();
-  const [username, setUsername] = useState('mdiggs');
-  const [token, setToken] = useState('kGSZORckySelWYFEubafHDAXcugjgSDEGdZUBuxJ');
+  const [username, setUsername] = useState('');
+  const [token, setToken] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
